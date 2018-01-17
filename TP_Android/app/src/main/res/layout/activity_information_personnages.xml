@@ -59,9 +59,9 @@
             android:id="@+id/surprisePerso"
             android:layout_width="80sp"
             android:layout_height="80sp"
-            android:layout_above="@+id/hair_colorPerso"
-            android:layout_toEndOf="@+id/eye_colorPerso"
-            android:layout_toRightOf="@+id/eye_colorPerso" />
+            android:layout_alignBottom="@+id/massPerso"
+            android:layout_alignEnd="@+id/birth_yearPerso"
+            android:layout_alignRight="@+id/birth_yearPerso" />
 
         <TextView
             android:layout_width="wrap_content"

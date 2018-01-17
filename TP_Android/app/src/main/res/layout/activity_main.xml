@@ -31,15 +31,16 @@
 
     <Button
         android:id="@+id/listButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="75dp"
         android:layout_alignParentBottom="true"
         android:background="@drawable/button_border"
-        android:paddingEnd="10sp"
-        android:paddingStart="10sp"
-        android:text="@string/afficher_les_personnages_de_star_wars" />
+        android:paddingEnd="20sp"
+        android:paddingStart="20sp"
+        android:textColor="#FFB300"
+        android:text="@string/afficher_les_personnages" />
 
     <ProgressBar
         android:id="@+id/loader"

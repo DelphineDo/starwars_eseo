@@ -3,7 +3,7 @@
     <string name="perso_1_s">Perso : %1$s</string>
     <string name="status_error"> Veuillez connecter le Wifi </string>
     <string name="unknown_error" />
-    <string name="afficher_les_personnages_de_star_wars">Afficher les personnages de Star Wars</string>
+    <string name="afficher_les_personnages">Afficher les personnages</string>
     <string name="mettre_jour_la_liste">Mettre à jour la liste</string>
     <string name="pas_de_personnage_trouv">Pas de personnage trouvé</string>
     <string name="personnagess_activity_title" />

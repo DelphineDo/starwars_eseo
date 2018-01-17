@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/background_ciel">
 
     <!-- This text will be displayed only if no character is found -->
     <TextView
@@ -15,7 +16,8 @@
         android:padding="16dp"
         android:text="@string/pas_de_personnage_trouv"
         android:visibility="gone"
-        tools:visibility="visible"/>
+        tools:visibility="visible"
+        android:textColor="@android:color/white"/>
 
     <!-- List of all devices in range -->
     <ListView
