@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_ciel">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/information_sur_le_personnage"
+            android:id="@+id/informations"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1"
+            android:textStyle="italic"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/namePerso"
+            android:text="@string/nom_1_s"
+            android:textStyle="bold"
+            android:layout_below="@id/informations"
+            android:layout_marginTop="40sp"
+            android:textColor="#FFB300"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/birth_yearPerso"
+            android:text="@string/ann_e_de_naissance_1_s"
+            android:textStyle="bold"
+            android:layout_below="@id/namePerso"
+            android:layout_marginTop="15sp"
+            android:textColor="#FFB300"
+            />
+
+        <ImageView
+            android:id="@+id/genderPerso"
+            android:layout_width="60sp"
+            android:layout_height="70sp"
+            android:layout_alignBottom="@+id/birth_yearPerso"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:src="@drawable/icon_woman" />
+
+        <ImageView
+            android:id="@+id/surprisePerso"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_above="@+id/hair_colorPerso"
+            android:layout_toEndOf="@+id/eye_colorPerso"
+            android:layout_toRightOf="@+id/eye_colorPerso" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/heightPerso"
+            android:text="@string/taille_1_s"
+            android:layout_below="@id/birth_yearPerso"
+            android:layout_marginTop="50sp"
+            android:textColor="#FFB300"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/massPerso"
+            android:text="@string/poids_1_s"
+            android:layout_below="@id/heightPerso"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFB300"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hair_colorPerso"
+            android:text="@string/couleur_de_cheveux_1_s"
+            android:layout_below="@id/massPerso"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFB300"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/skin_colorPerso"
+            android:text="@string/couleur_de_peau_1_s"
+            android:layout_below="@id/hair_colorPerso"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFB300"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eye_colorPerso"
+            android:text="@string/couleur_des_yeux_1_s"
+            android:layout_below="@id/skin_colorPerso"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFB300"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeworldPerso"
+            android:text="@string/monde_d_origine_1_s"
+            android:layout_below="@id/eye_colorPerso"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFB300"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/films"
+            android:text="@string/films_1_s"
+            android:layout_below="@id/homeworldPerso"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFB300"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/species"
+            android:text="@string/esp_ces_1_s"
+            android:layout_below="@id/films"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFB300"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehicles"
+            android:text="@string/vehicules_1_s"
+            android:layout_below="@id/species"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFB300"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/starships"
+            android:text="@string/vaisseaux_1_s"
+            android:layout_below="@id/vehicles"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFB300"
+            />
+
+    </RelativeLayout>
+
+
+</ScrollView>

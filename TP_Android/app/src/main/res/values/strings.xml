@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">StarWars</string>
+    <string name="perso_1_s">Perso : %1$s</string>
+    <string name="status_error"> Veuillez connecter le Wifi </string>
+    <string name="unknown_error" />
+    <string name="afficher_les_personnages_de_star_wars">Afficher les personnages de Star Wars</string>
+    <string name="mettre_jour_la_liste">Mettre à jour la liste</string>
+    <string name="pas_de_personnage_trouv">Pas de personnage trouvé</string>
+    <string name="personnagess_activity_title" />
+    <string name="personnages_activity_titles" />
+    <string name="nom_1_s">Nom: %1$s</string>
+    <string name="poids_1_s">Poids: %1$s</string>
+    <string name="information_sur_le_personnage">Information sur le personnage:</string>
+    <string name="ann_e_de_naissance_1_s">Année de naissance: %1$s</string>
+    <string name="taille_1_s">Taille: %1$s</string>
+    <string name="couleur_de_cheveux_1_s">Couleur de cheveux: %1$s</string>
+    <string name="couleur_de_peau_1_s">Couleur de peau: %1$s</string>
+    <string name="couleur_des_yeux_1_s">Couleur des yeux: %1$s</string>
+    <string name="monde_d_origine_1_s">Monde d\'origine: %1$s</string>
+    <string name="films_1_s">Films: %1$s</string>
+    <string name="esp_ces_1_s">Espèces: %1$s</string>
+    <string name="vehicules_1_s">Vehicules: %1$s</string>
+    <string name="vaisseaux_1_s">Vaisseaux: %1$s</string>
+</resources>
